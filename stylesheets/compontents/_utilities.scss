@@ -10,9 +10,27 @@
 .bg-cover{
     background-size: cover;
     background-position: center bottom;
-    min-height: 300px !important;
+    min-height: 300px;
 }
 .break-vertical-block{
     margin-top: -26px;
     margin-bottom: -26px;
+}
+.bg-cover-pro{
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 600px;
+}
+.box-shadow{
+  /* 左右 上下（位移） 渲染 （色,色,色,透明度.為％數） */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+  /* 漸變效果 */
+  transition: box-shadow .3s;
+}
+.pro-list-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.pro-list-link{
+color: $existing;
 }

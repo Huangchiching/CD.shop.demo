@@ -10,56 +10,53 @@
 </head>
 
 <body>
+    <!-- header -->
     <header>
-        <div class="text-center py-3">
-            <a href="index.html"><img style="width: 50px;" src="/stylesheets/images/album.svg" class="rounded"
-                    alt="Isolation"></a>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <nav class="navbar navbar-expand-lg navbar-white bg-white">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item mx-4">
-                                <a class="nav-link" href="/index.html">首頁 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link" href="/products.html">唱片行</a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link" href="/register.html">登入</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html"><img class="mr-2" src="/stylesheets/images/album.svg"
+                    alt="Isolation" width="40px">Isolation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item px-5">
+                        <a class="nav-link " href="/index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link" href="/products.html">唱片行</a>
+                    </li>
+                    <li class="nav-item pr-7">
+                        <a class="nav-link" href="/register.html">登入</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-existing my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-        </div>
+        </nav>
     </header>
 
     <!-- benner -->
-    <div class="jumbotron jumbotron-fluid jumbotron-bg my-3 d-flex align-items-end"
-        style="background-image: url(/../stylesheets/images/banner.jpg);">
-        <div class="bg-lighter container p-4">
-            <h1 class="display-6">” The time you enjoy wasting is not wasted time. “</h1>
-            <p class="lead">－ John Lennon</p>
-        </div>
-    </div>
-    <section class="section my-md-9">
-        <div class="row justify-content-center no-gutters d-md-none">
-            <div class="col-6">
-                <img src="" class="my-5 img-fluid" alt="">
+    <section>
+        <div class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-end"
+            style="background-image: url(/../stylesheets/images/banner.jpg);">
+            <div class="bg-lighter container p-4">
+                <h1 class="display-6">” The time you enjoy wasting is not wasted time. “</h1>
+                <p class="lead">－ John Lennon</p>
             </div>
         </div>
+    </section>
+
+    <!-- content -->
+    <section class="section my-md-9">
         <div class="container my-7">
-            <div class="bg-existing-lighter my-9">
+            <div class=" my-9 shadow p-3 mb-5 bg-white rounded">
                 <div class="row">
                     <div class="col-md-7 break-vertical-block">
-                        <div class="bg-cover h-100"
+                        <div class="bg-cover h-100 shadow p-3 mb-5 bg-white rounded"
                             style="background-image: url(/../stylesheets/images/thebeatles.jpg)">
                         </div>
                     </div>
@@ -71,7 +68,7 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum?
                                 Quidem, minima ad itaque debitis ratione tenetur officia maxime molestiae, consectetur
                             </p>
-                            <a href="" class="btn btn-outline-existing mt-4">了解更多</a>
+                            <a href="" class="btn btn-outline-existing my-4">了解更多</a>
                         </div>
                         <div class="break-vertical-block d-none d-md-block">
                             <img src="/stylesheets/images/搖.png" width="100" alt="">
@@ -79,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-existing-middle my-9">
+            <div class=" my-9 shadow p-3 mb-5 bg-white rounded">
                 <div class="row">
                     <div class="col-md-5 vertical-content d-flex justify-content-end">
                         <div class="break-vertical-block d-none d-md-block">
@@ -94,20 +91,20 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum?
                                 Quidem, minima ad itaque debitis ratione tenetur officia maxime molestiae, consectetur
                             </p>
-                            <a href="" class="btn btn-outline-existing mt-4">了解更多</a>
+                            <a href="" class="btn btn-outline-existing my-4">了解更多</a>
                         </div>
                     </div>
-                    <div class="col-md-7 break-vertical-block pr-0">
-                        <div class="bg-cover h-100 "
+                    <div class="col-md-7 break-vertical-block">
+                        <div class="bg-cover h-100 shadow p-3 mb-5 bg-white rounded"
                             style="background-image: url(/../stylesheets/images/DavidBowie.jpg)">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-existing-lighter my-9">
+            <div class=" my-9 shadow p-3 mb-5 bg-white rounded">
                 <div class="row">
                     <div class="col-md-7 break-vertical-block">
-                        <div class="bg-cover h-100" style="background-image: url(/../stylesheets/images/gunnrose.jpg)">
+                        <div class="bg-cover h-100 shadow p-3 mb-5 bg-white rounded" style="background-image: url(/../stylesheets/images/gunnrose.jpg)">
                         </div>
                     </div>
                     <div class="col-md-5 vertical-content d-flex justify-content-end">
@@ -118,7 +115,7 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum?
                                 Quidem, minima ad itaque debitis ratione tenetur officia maxime molestiae, consectetur
                             </p>
-                            <a href="" class="btn btn-outline-existing mt-4">了解更多</a>
+                            <a href="" class="btn btn-outline-existing my-4">了解更多</a>
                         </div>
                         <div class="break-vertical-block d-none d-md-block">
                             <img src="/stylesheets/images/不.png" width="100" alt="">
@@ -126,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-existing-middle my-9">
+            <div class=" my-9 shadow p-3 mb-5 bg-white rounded">
                 <div class="row">
                     <div class="col-md-5 vertical-content d-flex justify-content-end">
                         <div class="break-vertical-block d-none d-md-block">
@@ -141,11 +138,11 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum?
                                 Quidem, minima ad itaque debitis ratione tenetur officia maxime molestiae, consectetur
                             </p>
-                            <a href="" class="btn btn-outline-existing mt-4">了解更多</a>
+                            <a href="" class="btn btn-outline-existing my-4">了解更多</a>
                         </div>
                     </div>
                     <div class="col-md-7 break-vertical-block pr-0">
-                        <div class="bg-cover h-100 " style="background-image: url(/../stylesheets/images/nirvana2.jpg)">
+                        <div class="bg-cover h-100 shadow p-3 mb-5 bg-white rounded" style="background-image: url(/../stylesheets/images/nirvana2.jpg)">
                         </div>
                     </div>
                 </div>
@@ -153,20 +150,31 @@
         </div>
     </section>
 
-    <section class="py-5 bg-existing">
-    </section>
-
-    <footer class="py-4 bg-white">
+    <!-- footer -->
+    <footer class="py-4 bg-strict">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5 d-flex flex-column justify-content-between">
-                    <div>
-                        <img src="/stylesheets/images" height="27" alt="">
-                    </div>
-                    <ul class="list-unstyled mt-5">
-                        <li>02-1234-5678</li>
-                        <li><a class="h6" href="mailto:jean66536028@email.com">jean66536028@email.com</a></li>
-                        <li>114 台北市內湖區成功路四段</li>
+                    <span class="text-warning">ABOUT US</span>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit a magnam accusantium, totam qui
+                        laboriosam ut molestias iure dolores, quaerat perferendis at eligendi! Tempora, aliquam
+                        necessitatibus nam iusto commodi autem.
+                    </p>
+                    <span class="text-warning">CONTACT INFO</span>
+                    <ul class="list-unstyled mt-1 text-white">
+                        <li>
+                            <i class="fas fa-phone mr-3"></i>
+                            02-1234-5678
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope mr-3"></i>
+                            <a class="h6" href="mailto:jean66536028@email.com">jean66536028@email.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt mr-3"></i>
+                            114 台北市內湖區成功路四段
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-5 text-right d-none d-md-block">
@@ -176,13 +184,15 @@
                         aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-5 mt-2 ">
-                    <a href="https://www.instagram.com/sabrinahuang0917/"></a><img src="/stylesheets/images/instagram.svg" height="32" width="32" alt=""></a>
-                    <a href="https://github.com/Huangchiching"></a><img src="/stylesheets/images/github.svg" height="32" width="32" alt=""></a>
+            <div class="row justify-content-center text-white ">
+                <div class="col-md-5 mt-2 mr-2">
+                    <a class="mr-2" href="https://www.instagram.com/sabrinahuang0917/"><i
+                            class="fab fa-github fa-3x text-warning"></i></a>
+                    <a href="https://github.com/Huangchiching"><i
+                            class="fab fa-instagram-square fa-3x text-warning"></i></a>
                 </div>
                 <div class="col-md-5 text-md-right mt-2">
-                    <span>© 2020 Isolation All Rights Reserved</span>
+                    <span>—— © 2020 Isolation All Rights Reserved</span>
                 </div>
             </div>
         </div>
@@ -212,7 +222,7 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"></script>
+    <script src="https://kit.fontawesome.com/a482d7b265.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

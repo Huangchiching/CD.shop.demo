@@ -1,4 +1,16 @@
 .carousel-caption {
-  /* 前三數字為顏色 .6 為透明度 */
-  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  right: (100% - $carousel-caption-width) / 2;
+  top: 200px;
+  left: (100% - $carousel-caption-width) / 2;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: $carousel-caption-color;
+  text-align: left;
+  font-weight: 300;
+}
+.carousel-caption-tilte {
+font-size: 60px;
+font-weight: 700;
 }
